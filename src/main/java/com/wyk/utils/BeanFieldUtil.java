@@ -3,7 +3,7 @@ package com.wyk.utils;
 import java.lang.reflect.Field;
 
 /**
- * @author wuyankun
+ * @author yunqiu
  * @title: BeanFieldUtil
  * @projectName work-utils
  * @description: TODO
@@ -12,7 +12,7 @@ import java.lang.reflect.Field;
 public class BeanFieldUtil {
 
     /**
-     * 将对象中String类型的字段去除空白后缀
+     * 将对象中String类型的字段去除空白前后缀
      * @param obj
      */
     public static void stringFieldTrim(Object obj){
